@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace UIComponents.Frames
+namespace LobaSoft.IOS.UIComponents.Frames
 {
     public sealed class GridSubViewMeasure
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using MonoTouch.UIKit;
 
-namespace UIComponents.Frames
+namespace LobaSoft.IOS.UIComponents.Frames
 {
     public class Border : UIView
     {

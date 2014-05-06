@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace UIComponents.Events
+namespace LobaSoft.IOS.UIComponents.Events
 {
     public delegate void MoveRowEventHandler(object sender,MoveRowEventArgs e);
     public class MoveRowEventArgs:EventArgs

@@ -2,7 +2,7 @@
 using MonoTouch.UIKit;
 using System.Drawing;
 
-namespace UIComponents.CustomControls
+namespace LobaSoft.IOS.UIComponents.CustomControls
 {
     public delegate void TextValueChanged(object sender,TextChangeEventArgs e);
     public class UICustomTextView : UITextView

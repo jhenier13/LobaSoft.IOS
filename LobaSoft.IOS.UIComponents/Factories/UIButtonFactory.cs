@@ -1,7 +1,7 @@
 ﻿using System;
 using MonoTouch.UIKit;
 
-namespace UIComponents.Factories
+namespace LobaSoft.IOS.UIComponents.Factories
 {
     public static class UIButtonFactory
     {

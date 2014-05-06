@@ -3,7 +3,7 @@ using System.Drawing;
 using MonoTouch.UIKit;
 using System.Collections.Generic;
 
-namespace UIComponents.Frames
+namespace LobaSoft.IOS.UIComponents.Frames
 {
     public partial class GridView : UIView
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using MonoTouch.UIKit;
 
-namespace UIComponents
+namespace LobaSoft.IOS.UIComponents
 {
     public static class IphoneEnviroment
     {

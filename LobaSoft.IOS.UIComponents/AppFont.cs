@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using MonoTouch.UIKit;
 
-namespace UIComponents
+namespace LobaSoft.IOS.UIComponents
 {
     public partial class AppFont
     {
