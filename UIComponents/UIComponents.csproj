@@ -41,6 +41,7 @@
     <Folder Include="Frames\" />
     <Folder Include="Factories\" />
     <Folder Include="Events\" />
+    <Folder Include="CustomControls\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
@@ -60,5 +61,8 @@
     <Compile Include="Frames\SubViewThickness.cs" />
     <Compile Include="Frames\Border.cs" />
     <Compile Include="Events\SelectRowEventHandler.cs" />
+    <Compile Include="CustomControls\UICustomTextView.cs" />
+    <Compile Include="AppFont_Static.cs" />
+    <Compile Include="AppFont.cs" />
   </ItemGroup>
 </Project>
