@@ -1,5 +1,6 @@
 ﻿using System;
 using MonoTouch.UIKit;
+using System.Drawing;
 
 namespace LobaSoft.IOS.UIComponents
 {
@@ -7,7 +8,15 @@ namespace LobaSoft.IOS.UIComponents
     {
         public static float StatusBarHeight
         {
-            get{ return UIApplication.SharedApplication.StatusBarFrame.Height; }
+            get
+            { 
+                RectangleF originalStatusBarFrame = UIApplication.SharedApplication.StatusBarFrame;
+                UIWindow appWindow = UIApplication.SharedApplication.Windows[0];
+                UIView mainView = appWindow.RootViewController.View;
+                RectangleF properFrame = mainView.ConvertRectFromView(originalStatusBarFrame, appWindow);
+
+                return properFrame.Height; 
+            }
         }
     }
 }
